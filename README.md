@@ -17,4 +17,4 @@ Permite detectar un rostro en una foto, que se pasa a través de un link. Muestr
 5- Agrega tus credenciales de la database en el archivo server.js
 
 
-Podes hacerte una cuenta en Clarifai gratis [acá](https://www.clarifai.com/)
+Podes hacerte una cuenta en Clarifai gratis y conseguir tu API KEY [en este link](https://www.clarifai.com/)
