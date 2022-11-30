@@ -11,3 +11,7 @@ Permite detectar un rostro en una foto, que se pasa a través de un link. Muestr
 2- npm install
 
 3- npm start
+
+4- Tenes que añadir tu propia API KEY en el archivo controllers/image.js para conectar con la API de Clarifai.
+
+5- Agrega tus credenciales de la database en el archivo server.js
