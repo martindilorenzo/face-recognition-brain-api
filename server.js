@@ -24,6 +24,7 @@ const database = knex({
 
 
 const app = express();
+const PORT = process.env.PORT || 3030;
 
 app.use(express.json());
 app.use(cors());
@@ -42,8 +43,9 @@ app.put('/image', image.handleImage(database));
 app.post('/imageurl', image.handleApiCall());
 
 
-app.listen(3000, () => {
-  console.log("TODO OK")
+
+app.listen(PORT, () => {
+  console.log(`TODO OK EN PUERTO ${PORT}`)
 });
 
 
