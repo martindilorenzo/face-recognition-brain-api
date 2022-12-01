@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const { ClarifaiStub, grpc } = require("clarifai-nodejs-grpc");
+const APIKEY = process.env.APIKEY;
 
 
 const APP_ID = 'my-first-application';
@@ -13,7 +14,7 @@ const MODEL_ID = 'face-detection';
 const handleApiCall = () => (req, res) => {
   const stub = ClarifaiStub.grpc();
   const metadata = new grpc.Metadata();
-  metadata.set("authorization", "Key 4ad2607696604c05892bf3961023759e");
+  metadata.set("authorization", `Key ${APIKEY}`);
 
   stub.PostModelOutputs(
     {

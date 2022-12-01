@@ -10,14 +10,17 @@ const signin = require('./controllers/signin');
 const image = require('./controllers/image');
 const profile = require('./controllers/profile');
 
+const HOSTDB = process.env.HOSTDB;
+const PASSDB = process.env.PASSDB;
+
 
 const database = knex({
   client: 'pg',
   connection: {
-    host: 'dpg-ce3c9dcgqg4c9hmptsfg-a',
+    host: HOSTDB,
     port: 5432,
     user: 'tincho',
-    password: 'pI0SAFT37LjD14lUvYBQfTRbOi4C4eBU',
+    password: PASSDB,
     database: 'brain_db'
   }
 });
