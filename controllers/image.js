@@ -6,7 +6,6 @@ const APIKEY = process.env.APIKEY;
 const APP_ID = 'my-first-application';
 const USER_ID = 'martin_dilo';
 //Your PAT (Personal Access Token) can be found in the portal under Authentification
-const PAT = '4ad2607696604c05892bf3961023759e';
 // Change these to whatever model and image URL you want to use
 const MODEL_ID = 'face-detection';
 
