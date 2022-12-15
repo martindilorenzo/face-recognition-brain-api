@@ -21,6 +21,8 @@ Permite detectar un rostro en una foto, que se pasa a través de un link. Muestr
 
 Podes hacerte una cuenta en Clarifai gratis y conseguir tu API KEY [en este link](https://www.clarifai.com/)
 
+
+
 Puedes probar la aplicación en el siguiente link: https://face-reco-brain.onrender.com/ 
   1. Registra un usuario con un email y contraseña 
   2. Copia el link de una imagen con rostros
